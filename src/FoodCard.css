@@ -1,0 +1,43 @@
+@import url("fonts/style.css");
+
+.FoodCard {
+	font-family: "GT Walsheim Pro";
+	height: 180px;
+	width: 100%;
+	/*box-shadow: 1px -1px grey;*/
+	display: flex;
+	padding-top: 0px;
+}
+
+.img {
+	height: 100%; 
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 60px;
+}
+
+img {
+	margin: 20px;
+	margin-top: 0px;
+	width: 160px;
+	height: 160px;
+	border-radius: 80px; 
+}
+
+.TextFields {
+	font-family: "GT Walsheim Pro";
+	margin-top: 40px;
+}
+
+.Price {
+	font-family: "GT Walsheim Pro";
+	color: #c4c4c4;
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+	border: solid #c4c4c4 2px;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 2px;
+	width: 40px;
+}
